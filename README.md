@@ -38,7 +38,7 @@ print('Прокси готовы ', len(prxes))
 from ProxyMen.objects import Proxy
 from ProxyMen.loaders import ProxyLoader
 
-l = [Proxy(ip='<your ip>', port=<your port>, type_=<your type>)]
+l = [Proxy(ip='<your ip>', port=<your port>, type_=<your type>), Proxy(ip='<your ip>', port=<your port>, type_=<your type>)]
 
 PL = ProxyLoader(l)
 prxes = PL.load()
