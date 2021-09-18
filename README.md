@@ -19,7 +19,6 @@
 
 ### Используйте прокси 
 ```
-from ProxyMen.objects import Proxy
 from ProxyMen.loaders import ProxyLoader
 
 PL = ProxyLoader()
